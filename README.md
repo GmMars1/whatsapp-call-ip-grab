@@ -19,6 +19,55 @@ This script is a real-time WhatsApp STUN traffic analyzer that identifies the re
 
 # Network:
 
-  Active Internet connection 
+  Wi-Fi or Etherenet
+
+# Features
+  
+# ✦︎ Live STUN Packet Monitoring:
+
+Captures only STUN traffic on the specified interface (Wi-Fi by default).
+
+Filters out private IPs and known Meta-owned IP ranges.
+
+# ✦︎ Public IP Detection:
+
+Focuses on the receiving party’s public IP.
+
+Tracks timestamps to detect activity and inactivity.
+
+# ✦︎ Call Start/Stop Detection:
+
+Detects when the call starts based on first STUN packet.
+
+Detects call end after configurable inactivity threshold (CALL_INACTIVITY_THRESHOLD seconds).
+
+# ✦︎ Geolocation Lookup:
+
+City, Country, ISP, Latitude, Longitude.
+
+Excludes Meta/Facebook-owned ISPs info logging.
+
+# ✦︎ HTML Logging:
+
+Creates Whatsapp_ip_detection_report.html file.
+
+Columns include Time, IP, ISP, Location, Map.
+
+Interactive embedded Google Maps.
+
+Clickable coordinates under the map for direct Google Maps link.
+
+# ✦︎ Terminal Output:
+
+Prints target candidate details in real-time.
+
+Displays IP, ISP, location, coordinates.
+
+Notifies of call start and call end.
+
+# ✦︎ Robustness:
+
+Terminates TShark subprocess and closes HTML table properly. 
+  
 
 
