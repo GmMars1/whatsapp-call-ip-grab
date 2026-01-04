@@ -3,25 +3,25 @@
 # Whatsapp-call-ip-grabber
 This script is a real-time WhatsApp STUN traffic analyzer that identifies the receiving end’s public IP during a call, performs geolocation, logs results to an HTML file with embedded maps and auto detects call start/stop.
 
-# Requirements
+# </>Requirements
 
-# Operating System: 
+# 💻Operating System: 
 
   Windows 7/10/11
 
-# Application:
+# 🎨Application:
 
   WhatsApp Desktop Application 
 
-# External Tools:
+# 🔧External Tools:
 
   Wireshark installed with TShark CLI: make sure that your default path is C:\Program Files\Wireshark\tshark.exe.
 
-# Network:
+# 🛡️Network:
 
   Wi-Fi or Etherenet
 
-# Features
+# 🧠Features
   
 # ✦︎ Live STUN Packet Monitoring:
 
@@ -39,7 +39,7 @@ Tracks timestamps to detect activity and inactivity.
 
 Detects when the call starts based on first STUN packet.
 
-Detects call end after configurable inactivity threshold (CALL_INACTIVITY_THRESHOLD seconds).
+Detects call end after configurable inactivity threshold.
 
 # ✦︎ Geolocation Lookup:
 
